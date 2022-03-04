@@ -8,11 +8,15 @@ System.out.println(calculator.getLastResult());
 
 //try addition 
 calculator.Add(10,35);
-System.out.println(calculator.getLastResult);
+System.out.println(calculator.getLastResult());
 
 // try subtraction
 calculator.Subtract(50,15);
-System.out.println(calcuator.getLastResult);
+System.out.println(calcuator.getLastResult());
+
+// try multiplication
+calculator.Multiply(10,30) ;
+System.out.println(calculator.getLastResult());
 
     }
 }
